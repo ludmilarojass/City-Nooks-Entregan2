@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fuente Nunito */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+
+body {
+    background-color: pink;
+    font-family: "Nunito Sans", sans-serif; 
+}
+ /*CENTRAR CONTENIDO */
+.cuerpo { margin: 32px 0; display: flex;
+     flex-direction: column; 
+     align-items: center; 
+     text-align: center; }
+
+/* ================================
+   HEADER
+================================ */
+header {
+    background-color: #d88956;
+    padding: 20px 40px;
+}
+/* ================================
+   NAV
+================================ 
+.logo-descrip {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 180px;
+}
+*/
+/* ================================
+   NAV
+================================ */
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.li-nav {
+    list-style: none;
+}
+
+.a-nav {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.a-nav:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+/* ================================
+   CARDS (NO SE TOCA)
+================================ */
+.card {
+    
+    width: 200px;
+    padding: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.card h4 {
+    margin: 10px;
+}
+
+.conteiner {
+    margin: 32px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+/* ================================
+   FORMULARIOS
+================================ */
+.Formularios {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Formularios .img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Dos columnas internas */
+.form-columns {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+}
+
+/* Inputs */
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 14px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    background-color: #ffa266;
+}
+
+form h2 {
+    margin-bottom: 10px;
+}
+
+/* Botón */
+.boton {
+    margin-top: 10px;
+    padding: 12px 25px;
+    background: #d97a50;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+/* ================================
+   FOOTER
+================================ */
+footer {
+    background-color: #dd8955;
+    text-align: center;
+    padding: 20px;
+}
+
+.p-footer {
+    font-size: small;
+    color: black;
+}
+
+.bg-propio {
+    background-color: #d88956;
+    /*font-family: "Nunito Sans", sans-serif;
+*/
+    }
