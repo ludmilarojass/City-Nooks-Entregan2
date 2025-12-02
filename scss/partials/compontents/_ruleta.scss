@@ -1,0 +1,50 @@
+.ruleta-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  max-width: 900px;
+  margin: 40px auto;
+
+  .col-ruleta {
+    @include flex-center-column;
+
+    .ruleta-img {
+      width: 300px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .col-invitar {
+    @extend %box;
+    background-color: $color-principal;
+    text-align: center;
+
+    p {
+      text-decoration: underline;
+      color: blue;
+    }
+
+    .invitar-redes {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+
+      img {
+        width: 45px;
+        height: 45px;
+
+        &:hover {
+          transform: scale(1.15);
+        }
+      }
+    }
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ruleta-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

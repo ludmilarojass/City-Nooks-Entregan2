@@ -1,0 +1,19 @@
+/*Utilities */
+@forward "./partials/utilities/variables";
+@use "./partials/utilities/mixins";
+@use "./partials/utilities/extend";
+
+
+/* Base */
+@use "./partials/base/reset";
+@use "./partials/base/tipografia";
+
+/*Components */
+@use "./partials/compontents/nav";
+@use "./partials/compontents/cards";
+@use "./partials/compontents/footer";
+@use "./partials/compontents/formularios";
+@use "./partials/compontents/header";
+
+@use "./partials/compontents/ruleta";
+

@@ -1,0 +1,25 @@
+/*Cards */
+.card {
+  @extend %box;
+  width: 200px;
+  text-align: center;
+
+  img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  h4 {
+    margin: 10px;
+  }
+}
+
+.conteiner {
+  margin: 32px 0;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

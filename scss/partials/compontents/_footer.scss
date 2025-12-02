@@ -1,0 +1,29 @@
+footer {
+  background-color: $color-principal;
+  text-align: center;
+  padding: 9px;
+}
+
+
+.p-footer {
+  font-size: small;
+  color: black;
+}
+
+.footer-redes {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  img {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    transition: .2s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
