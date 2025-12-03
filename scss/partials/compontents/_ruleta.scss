@@ -1,3 +1,7 @@
+@use "../utilities/variables";
+@use "../utilities/mixins";
+@use "../utilities/extend";
+
 .ruleta-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -7,7 +11,7 @@
   margin: 40px auto;
 
   .col-ruleta {
-    @include flex-center-column;
+    @include mixins.flex-center-column;
 
     .ruleta-img {
       width: 300px;
@@ -16,8 +20,8 @@
   }
 
   .col-invitar {
-    @extend %box;
-    background-color: $color-principal;
+    @extend %box; 
+    background-color: variables.$color-principal;
     text-align: center;
 
     p {
@@ -41,6 +45,14 @@
     }
   }
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ruleta-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {

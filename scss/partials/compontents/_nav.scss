@@ -1,3 +1,5 @@
+@use "../utilities/variables";
+
 .navbar-brand {
   img {
     width: 180px;
@@ -16,11 +18,11 @@
     .nav-link {
       font-size: 18px;
       font-weight: 600;
-      color: $color-texto !important;
+      color: variables.$color-texto;   // ✅ prefijo
       transition: .2s;
 
       &:hover {
-        color: $color-hover;
+        color: variables.$color-hover; // ✅ prefijo
         transform: scale(1.2);
       }
     }

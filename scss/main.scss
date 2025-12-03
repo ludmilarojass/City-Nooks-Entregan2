@@ -1,7 +1,7 @@
 /*Utilities */
 @forward "./partials/utilities/variables";
 @use "./partials/utilities/mixins";
-@use "./partials/utilities/extend";
+@forward "./partials/utilities/extend";
 
 
 /* Base */

@@ -1,4 +1,5 @@
 /*Cards */
+@use "../utilities/extend";
 .card {
   @extend %box;
   width: 200px;

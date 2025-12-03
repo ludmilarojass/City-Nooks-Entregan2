@@ -1,4 +1,7 @@
-header {
-  background-color: $color-principal;
+@use "../utilities/variables";
+
+header{
+
+  background-color: variables.$color-principal;
   padding: 10px 20px;
 }

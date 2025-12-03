@@ -1,5 +1,7 @@
+@use "./variables";
+
 %box {
-  border: 2px solid black;
-  border-radius: $radius;
-  padding: $padding-med;
+  border: 2px solid variables.$color-principal;
+  border-radius: variables.$radius;
+  padding: variables.$padding-med;
 }

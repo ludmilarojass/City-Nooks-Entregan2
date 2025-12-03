@@ -1,3 +1,5 @@
+@use "../utilities/variables";
+
 @mixin flex-center-column {
   display: flex;
   flex-direction: column;
@@ -8,7 +10,7 @@
 @mixin boton-base {
   margin-top: 10px;
   padding: 12px 25px;
-  background: $color-secundario;
+  background: variables.$color-secundario;
   color: white;
   border-radius: 8px;
   cursor: pointer;

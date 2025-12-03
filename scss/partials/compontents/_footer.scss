@@ -1,9 +1,10 @@
+@use "../utilities/variables";
+
 footer {
-  background-color: $color-principal;
+  background-color: variables.$color-principal; // ✅ prefijo
   text-align: center;
   padding: 9px;
 }
-
 
 .p-footer {
   font-size: small;

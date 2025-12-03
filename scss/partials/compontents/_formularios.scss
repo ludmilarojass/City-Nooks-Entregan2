@@ -1,3 +1,6 @@
+@use "../utilities/variables";
+@use "../utilities/mixins";
+
 .Formularios {
   display: flex;
   gap: 40px;
@@ -29,7 +32,7 @@
           margin-bottom: 14px;
           border-radius: 6px;
           border: 1px solid #aaa;
-          background: $color-input;
+          background: variables.$color-input; 
         }
       }
     }
@@ -37,5 +40,6 @@
 }
 
 .boton {
-  @include boton-base;
+  @include mixins.boton-base; 
 }
+
