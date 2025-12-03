@@ -20,6 +20,33 @@ body {
 }
 
 /*Components */
+.cuerpo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding: 40px;
+}
+.cuerpo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.cuerpo .boton {
+  margin-top: 10px;
+  padding: 12px 25px;
+  background: #d97a50;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
 .navbar-brand img {
   width: 180px;
   height: auto;
