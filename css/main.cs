@@ -154,6 +154,39 @@ footer {
   border: 1px solid #aaa;
   background: #ffa266;
 }
+@media (max-width: 768px) {
+  .Formularios {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+  .Formularios .img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .Formularios .form-container {
+    width: 100%;
+  }
+  .Formularios .form-container .form-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .Formularios {
+    padding: 15px;
+  }
+  .Formularios .img {
+    width: 100%;
+  }
+  .Formularios .form-container .form-columns {
+    gap: 15px;
+  }
+  .Formularios .form-container .col input,
+  .Formularios .form-container .col select {
+    padding: 8px;
+  }
+}
 
 .boton {
   margin-top: 10px;

@@ -18,11 +18,11 @@
     .nav-link {
       font-size: 18px;
       font-weight: 600;
-      color: variables.$color-texto;   // ✅ prefijo
+      color: variables.$color-texto;    
       transition: .2s;
 
       &:hover {
-        color: variables.$color-hover; // ✅ prefijo
+        color: variables.$color-hover; 
         transform: scale(1.2);
       }
     }

@@ -37,9 +37,51 @@
       }
     }
   }
+
+  // Media Queries para tablets
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+
+    .img {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+
+    .form-container {
+      width: 100%;
+
+      .form-columns {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  }
+
+  // Media Queries para móviles pequeños
+  @media (max-width: 480px) {
+    padding: 15px;
+
+    .img {
+      width: 100%;
+    }
+
+    .form-container {
+      .form-columns {
+        gap: 15px;
+      }
+
+      .col {
+        input,
+        select {
+          padding: 8px;
+        }
+      }
+    }
+  }
 }
 
 .boton {
   @include mixins.boton-base; 
 }
-
