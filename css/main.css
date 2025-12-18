@@ -98,28 +98,27 @@ body {
 footer {
   background-color: #d88956;
   text-align: center;
-  padding: 9px;
+  padding: 6px 0;
 }
 
-.p-footer {
-  font-size: small;
-  color: black;
+.footer-logo {
+  max-width: 160px;
+  margin: 6px 0;
+  height: auto;
+}
+
+footer p {
+  margin: 2px 0;
+  font-size: 11px;
 }
 
 .footer-redes {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  gap: 12px;
+  margin-top: 4px;
+  gap: 6px;
 }
 .footer-redes img {
-  width: 28px;
-  height: 28px;
-  cursor: pointer;
-  transition: 0.2s;
-}
-.footer-redes img:hover {
-  transform: scale(1.2);
+  width: 16px;
+  height: 16px;
 }
 
 .Formularios {
